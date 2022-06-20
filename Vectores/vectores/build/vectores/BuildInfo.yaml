@@ -1,0 +1,18 @@
+---
+compiled_package_info:
+  package_name: vectores
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+  source_digest: F19E2C3947A7CA21C00D53FCB61A822A45BE1708F02FEE71590C97E6FB04933D
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    only_deps: false
+dependencies:
+  - MoveStdlib

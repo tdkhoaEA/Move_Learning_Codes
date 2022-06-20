@@ -1,0 +1,19 @@
+---
+compiled_package_info:
+  package_name: ref
+  address_alias_instantiation:
+    NamedAddr: 0000000000000000000000000000cafe
+    std: "00000000000000000000000000000001"
+  source_digest: 19468C935AAAB4B97E2C6A9AFD1443791AAC66108483DEF30E6A040178C1E5CE
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    only_deps: false
+dependencies:
+  - MoveStdlib
