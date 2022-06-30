@@ -1,0 +1,13 @@
+[package]
+name = "pack"
+version = "0.0.0"
+license = "MIT"
+author = "Daniel Espejel (duedme@gmail.com)"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+
+[addresses]
+std = "0x1"
+myaddr = "0xCAFECAFECAFE"
+
