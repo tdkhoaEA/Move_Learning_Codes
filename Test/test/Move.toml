@@ -1,16 +1,10 @@
 [package]
-name = "pack"
+name = "Test/test"
 version = "0.0.0"
-license = "MIT"
-authors = ["Daniel Espejel (duedme@gmail.com)"]
 
 [dependencies]
 MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
 
 [addresses]
 std = "0x1"
-named_addr = "_"
-
-[dev-addresses]
-named_addr = "0xCAFE"
 
