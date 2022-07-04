@@ -15,3 +15,6 @@ module 0xCAFE::a {
     #[test, expected_failure(abort_code = 2)]
     public fun mamalon() { abort 2 }
 }
+
+#[test_only]
+module 0xCAFE::ABC {}
